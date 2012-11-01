@@ -2,56 +2,17 @@
 <head>
 	<title>DrupalCamp London 2013 website prototypes | Homepage</title>
 	 <link rel="stylesheet" href="normalize.css">
+	 <link rel="stylesheet" href="style.css">
 </head>
-<style>
-.grid {
-  overflow: hidden;
-  padding: 0.5em 0 0 0.5em;
-  max-width: 76em;
-  margin: 0 auto;
-}
-.grid li {
-  padding: 0 0.5em 0.5em 0;
-}
-.grid li > div {
-  background: #808080;
-  padding: 7em 2em;
-  text-align: center;
-}
-.grid li.wide {
-  width: 100%;
-}
-.grid li a {
-  color: #fff;
-}  
-
-@media all and (min-width: 40em) {
-  .grid li {
-    float: left;
-    width: 33.3333333%;
-  }
-  .grid li.wide {
-    width: 66.666666%;
-  }
-}
-@media all and (min-width: 60em) {
-  .grid li {
-    width: 25%;
-  }
-  .grid li.wide {
-    width: 50%;
-  }
-}
-</style>
 <body>
 
-<header>
+<header class='main-header'>
 	<h1>DrupalCamp London 2013</h1>
 	<h2>1st - 3rd March 2013</h2>
 	<h2>City University, London</h2>
-	<h2>Tickets: £30</h2>
-	<h2><a href="#">Register</a> | <a href="#">Log In</a></h2>
-	<h3>My Schedule</h3>
+	<h2>Tickets: &pound;30</h2>
+	<h5><a href="#">Register</a> | <a href="#">Log In</a></h5>
+	<h5>My Schedule</h5>
 </header>
 
 <!--Pattern HTML-->
@@ -62,16 +23,16 @@
 					Speakers
 				</div>
 			</li>
-			<li>
-				<div>
-					Tickets / Schedule
-				</div>
-			</li>
 			<li class="wide">
 				<div>
 					How to get here
 				</div>
 			</li>
+			<li>
+				<div>
+					Tickets / Schedule
+				</div>
+			</li>			
 			<li>
 				<div>
 					What to expect
