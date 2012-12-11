@@ -1,0 +1,31 @@
+/** Global variables **/
+$max_width: 1200px;
+
+/** Typography **/
+$base-font-size: 16px;
+$base-line-height: 24px;
+
+
+/** Main breakpoints **/
+$break_small_up: 421px;
+$break_med_up: 600px;
+$break_large_up: 980px;
+
+
+/** Grid **/
+$_columns: 16;
+$_gutter: 20px;
+$_max-width: 1200px;
+
+
+/** Colours **/
+$background_base: #dfe5e6;
+$background_highlight: #329cd7;
+$base_frame: #222425;
+
+$dcl-blue: #53B0EB;
+$dcl-red: #e71e10;
+
+/** Forms **/
+$forms_indent: 25%;
+$forms_max-width: 800px;

@@ -1,0 +1,124 @@
+/**
+ * Styling for the actual pattern browser
+ */
+.pattern-browser-content-wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  clear: both;
+  overflow: hidden;
+}
+
+.pattern-browser-description {
+  font-family: Ubuntu;
+  margin: 0 0 10px;
+}
+
+.pb-logo {
+  float: right;
+  margin: 5px;
+}
+.pb-logo img {
+  height: 90px;
+}
+
+#pb-logo-icon {
+  /* Firefox */
+  -moz-transition: all 3s ease;
+  /* WebKit */
+  -webkit-transition: all 3s ease;
+  /* Opera */
+  -o-transition: all 3s ease;
+  /* Standard */
+  transition: all 3s ease;
+  margin-right: 5px;
+}
+#pb-logo-icon:hover {
+  opacity: 1;
+  /* Firefox */
+  -moz-transform: rotate(720deg);
+  /* WebKit */
+  -webkit-transform: rotate(720deg);
+  /* Opera */
+  -o-transform: rotate(720deg);
+  /* Standard */
+  transform: rotate(720deg);
+  z-index: 1000;
+}
+
+/** Pattern browser main nav **/
+.pb-menu-primary {
+  background: #000;
+  overflow: hidden;
+  padding: 15px 0 10px 0;
+  position: relative;
+}
+.pb-menu-primary ul.menu {
+  list-style-type: none;
+  margin-left: -20px;
+  margin-top: 15px;
+  float: left;
+}
+.pb-menu-primary ul.menu li {
+  float: left;
+}
+.pb-menu-primary ul.menu li a {
+  color: #FFF;
+  margin-left: 20px;
+  display: block;
+  font-family: "Source Sans Pro",sans-serif;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.pb-menu-primary ul.menu li a:hover {
+  text-decoration: underline;
+}
+.pb-menu-primary ul.menu li a:focus, .pb-menu-primary ul.menu li a:active {
+  position: relative;
+  top: 1px;
+}
+
+/** Secondary nav **/
+.pb-menu-primary-level2 {
+  background: #282828;
+  color: #d8d8d8;
+  overflow: hidden;
+}
+.pb-menu-primary-level2 a {
+  color: #d8d8d8;
+}
+.pb-menu-primary-level2 a:focus, .pb-menu-primary-level2 a:active {
+  position: relative;
+  top: 1px;
+}
+.pb-menu-primary-level2 a:hover {
+  color: #FFF;
+}
+.pb-menu-primary-level2 ul {
+  margin-left: -1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px 0;
+  overflow: hidden;
+  float: left;
+}
+.pb-menu-primary-level2 ul li {
+  float: left;
+  margin-left: 1em;
+}
+.pb-menu-primary-level2 .toplink {
+  float: right;
+  margin: 5px 0;
+  display: none;
+}
+
+/** Stickynav **/
+.stickynav-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.stickynav-fixed .toplink {
+  display: block;
+}

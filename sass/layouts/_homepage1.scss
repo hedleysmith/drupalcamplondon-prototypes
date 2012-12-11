@@ -1,11 +1,13 @@
 .grid {
   overflow: hidden;
-  padding: 0.5em 0 0 0.5em;
-  max-width: 76em;
+  padding: 2em 0 0 0.5em;
+  max-width: 64em;
   margin: 0 auto;
 }
 .grid li {
   padding: 0 0.5em 0.5em 0;
+  @include box-sizing(border-box);
+  list-style-type: none;
 }
 .grid li > div {
   background: #808080;

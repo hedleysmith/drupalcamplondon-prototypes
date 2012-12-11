@@ -1,0 +1,37 @@
+@mixin header-layout-1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  z-index: 50;
+  @include column($float: none);
+  
+  .site-details {
+    margin-bottom: 10px;
+    width: 207px;
+    margin: 0 auto;
+      @media (min-width: $break_large_up) {
+        float: left;
+        margin-bottom: 0;
+    }
+  }
+
+  h1.site-name {
+    margin: 0;
+    line-height: 0.9;
+
+    a {
+      display: block;
+      
+    }
+    @media all and (min-width: $break_large_up) {
+      a {
+        background-position: 0 0;
+      }
+    }
+  }
+
+  .region-header ul.menu  {
+    @include navigation-horizontal;
+  }
+
+}

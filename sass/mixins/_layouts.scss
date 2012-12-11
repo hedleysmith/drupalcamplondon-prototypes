@@ -1,0 +1,15 @@
+/** Views grid **/
+
+@mixin viewsgrid($rowcols: 2) {
+
+  .views-row {
+    margin-bottom: 1em;
+    @media(min-width: $break_med_up ) {
+      @include column($rowcols * 2);
+    }
+    @media(min-width: $break_large_up ) {
+      @include column($rowcols);
+    }
+  }
+  
+}

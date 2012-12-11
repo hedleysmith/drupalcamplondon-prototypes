@@ -1,0 +1,53 @@
+@mixin user-box-vertical {
+		text-align: center;
+		@include column();
+		div.name {
+			margin-bottom: 10px;
+		}	
+}
+
+aside.user-box-1 {
+	
+	div.name {
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 0.8em;
+	}
+
+	img {
+		width: 100%;
+		max-width: 160px;
+	}
+
+	@media (max-width: $break_small_up) {
+		@include user-box-vertical;
+	}
+
+	@media (max-width: $break_large_up) and (min-width: $break_small_up) {
+		img {
+			@include column(4);
+			max-width: 200px;
+		}
+		.name {
+			@include column(12, $float: right);
+			text-align: left;
+		}
+		p {
+			@include column(12, $float: right);
+			text-align: left;
+		}
+	}
+
+	@media (min-width: $break_large_up) {
+		@include user-box-vertical;
+		height: 330px;
+		overflow: hidden;
+		&:hover {
+			overflow: visible;
+		}
+	}
+	
+}
+

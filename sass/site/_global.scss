@@ -1,0 +1,281 @@
+/**
+ *
+ * Site-wide styling
+ *
+ */
+
+body {
+  background: black;
+  color: #FFF;
+}
+
+/** Links **/
+
+a:link, a:visited {
+  color: $dcl-blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #FFF;
+  text-decoration: none;
+  color: #000;
+}
+
+hr {
+  color: $dcl-blue;
+}
+
+ul.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.primary-menu-level-2 {
+  @include primary-menu-level-2;
+}
+
+p code, li code, pre code {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 0.4em 0.4em 0.4em 0.4em;
+  color: #555555;
+  display: inline-block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin: -1px 0;
+  padding: 0 0.3em;
+}
+
+p.intro {
+    @include adjust-font-size-to($h4-font-size, 1.5);
+    @include leader(1, $h4-font-size);
+    @include trailer(1, $h4-font-size);
+    color: $heading-font-color-2;
+}
+
+p.image-description {
+  font-style: italic;
+}
+
+/**
+ * GENERAL
+ */
+  
+.element-hidden {
+  display: none;
+}
+
+.element-invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.element-invisible.element-focusable:active,
+.element-invisible.element-focusable:focus {
+  position: static !important;
+  clip: auto;
+}
+
+#page-title {
+  line-height: 0.9;
+  margin-bottom: 20px;
+  font-size: 46px;
+}
+
+/**
+ * TOP STRIPE
+ */
+
+.top-stripe {
+  background-color: $base_frame;
+  height: 5px;
+}
+
+@media(min-width: $break_large_up) {
+  header h1.site-name a {
+    background-position: 0 0;
+  }
+}
+
+/**
+ * HIGHLIGHT
+ */
+
+section.highlighted {
+  background: #329cd7; /* Old browsers */
+  background: -moz-linear-gradient(left,  #329cd7 0%, #226a91 25%, #226a91 75%, #329cd7 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#329cd7), color-stop(25%,#226a91), color-stop(75%,#226a91), color-stop(100%,#329cd7)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #329cd7 0%,#226a91 25%,#226a91 75%,#329cd7 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #329cd7 0%,#226a91 25%,#226a91 75%,#329cd7 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #329cd7 0%,#226a91 25%,#226a91 75%,#329cd7 100%); /* IE10+ */
+  background: linear-gradient(to right,  #329cd7 0%,#226a91 25%,#226a91 75%,#329cd7 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329cd7', endColorstr='#329cd7',GradientType=1 ); /* IE6-9 */
+}
+
+/**
+ * FOOTER
+ */
+
+footer {
+  background-color: $base_frame;
+  overflow: hidden;
+  padding: 20px 0;
+  color: #FFF;
+  clear: both;
+}
+
+footer a {
+  color: #FFF;
+}
+
+footer section {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+footer a.facebook-link, footer a.google-link,
+footer a.twitter-link {
+  float: left;
+  margin-right: 20px;
+}
+
+table {
+  @include tables_basic;
+}
+
+table.striped, 
+.table-striped {
+  @include tables_striped;
+}
+
+div.messages {
+  @include messages_basic;
+}
+
+
+/** Forms
+ * Variables used:
+ *
+ * $forms_indent: 25%;
+ * $forms_max-width: 800px;
+ **/
+
+@mixin forms_basic {
+  max-width: 800px; 
+}
+
+form {
+  @include forms_basic;
+}
+
+label {
+  width: $forms_indent;
+  margin: 0.5em 0 0;
+  float: left;
+}
+
+/** Checkboxes & Radios **/
+
+.form-type-checkbox label, 
+.form-type-radio label{
+  width: auto;
+  float: none;
+}
+
+.form-item.form-type-checkbox .description, 
+.form-item.form-type-radio .description{
+  margin-left: 1.25em;
+}
+
+/** Single checkbox / radio **/
+.form-item.form-item-checkbox, 
+.form-item.form-item-radio {
+  margin: 0.5em 0 1em $forms_indent;
+}
+
+/** Multiple checkboxes **/
+.form-item-checkboxes {
+  .form-checkboxes {
+    margin-left: $forms_indent;
+  }
+
+ .form-checkboxes .form-item {
+    float: left;
+    width: 50%;
+    margin: 0.5em 0;
+  }
+}
+
+/** Multiple radios **/
+.form-item-radios {
+  .form-radios {
+    margin-left: $forms_indent;
+  }
+
+ .form-radios .form-item {
+    float: left;
+    width: 50%;
+    margin: 0.5em 0;
+  }
+}
+
+
+input[type="text"], 
+input[type="email"], 
+input[type="url"], 
+input[type="password"], 
+input[type="search"], 
+select, 
+textarea {
+  width: 75%;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="url"], 
+input[type="password"], 
+input[type="search"], 
+input[type="button"], 
+input[type="submit"], 
+select, 
+textarea, 
+button {
+  background-color: #EEEEEE;
+  box-shadow: 0 1px 0 #DDDDDD inset;
+  padding: 0.5em;
+  vertical-align: middle;
+  border: 0;
+}
+
+input[type="checkbox"], 
+input[type="radio"] {
+  margin: 0 0.25em 0 0;
+}
+
+.form-item {
+  margin: 0.5em 0 1em;
+}
+
+form .description {
+  font-size: 0.75em;
+  font-style: italic;
+}
+  
+.form-item-textfield, 
+.form-item-autocomplete, 
+.form-item-checkboxes,
+.form-item-radios, 
+.form-item-select, 
+.form-item-textarea {
+  > .description {
+   margin-left: $forms_indent;
+   clear: both;
+  }
+  
+}

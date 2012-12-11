@@ -1,0 +1,50 @@
+/**
+ * Navigation Styling
+ */
+
+$menu_margin: 30px;
+
+@mixin navigation-horizontal {
+
+  li {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  li a {
+    display: block;
+    width: 100%;
+  }
+
+  @media (min-width: $break_med_up) {
+
+      margin-top: 6px;
+      margin-left: -$menu_margin;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      text-align: center;
+
+      li {
+        display: inline-block;
+        margin-left: $menu_margin;
+      }
+
+  }
+
+  @media (min-width: $break_large_up) {
+    text-align: right;
+  }
+
+}
+
+@mixin primary-menu-level-2 {
+  ul li a {
+    border-radius: 2px;
+    background-color: #ccc;
+    display: block;
+    @include adjust-font-size-to(24px);
+    @include trailer(0.5);
+    @include adjust-leading-to(1.5);
+    padding: 0 10px;
+  }
+}

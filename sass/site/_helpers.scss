@@ -1,0 +1,15 @@
+/** Colour classes **/
+
+.dcl-blue {
+	background-color: $dcl-blue;
+}
+
+.dcl-red {
+	background-color: $dcl-red;
+}
+
+/**** Global grid styles ****/
+
+.container-full {
+  @include wrapper();
+}
