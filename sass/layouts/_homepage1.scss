@@ -1,3 +1,42 @@
+#homepage {
+  #highlight {
+    background-image: url("/img/codesprint.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 400px;
+    overflow: hidden;
+    >div {
+      @include wrapper();
+    }
+    .slide {
+      @include column(16);
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      @include box-sizing(border-box);
+      background-color: rgba(0,0,0,0.8);
+      padding: 20px;
+      margin-top: 90px;
+      //max-width: 900px;
+      overflow: hidden;
+      @include adjust-font-size-to(26px, 1.5);
+    }
+  }
+}
+
+#page {
+  margin-top: -100px;
+  >div {
+    @include wrapper();
+    >img:first-child {
+      margin-left: 0;
+    }
+    >img {
+      margin-left: 100px;
+    }
+  }
+}
+
 .grid {
   overflow: hidden;
   padding: 2em 0 0 0.5em;

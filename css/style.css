@@ -546,14 +546,19 @@ header.dark-header {
   width: 100%;
   z-index: 50;
   background: #e71e10;
-  width: 100%;
-  float: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   position: relative;
+}
+header.dark-header .header-inside {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+  position: relative;
+}
+header.dark-header .header-inside:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 header.dark-header .site-details {
   margin-bottom: 10px;
@@ -566,14 +571,23 @@ header.dark-header .site-details {
     margin-bottom: 0;
   }
 }
+header.dark-header #date {
+  margin-left: 200px;
+  width: 120px;
+  position: absolute;
+  background: black;
+  top: -20px;
+  right: 0;
+  padding: 20px;
+}
 header.dark-header h1.site-name {
   margin: 0;
   line-height: 0.9;
 }
 header.dark-header h1.site-name a {
   position: absolute;
-  top: -5px;
-  left: 10px;
+  top: -20px;
+  left: -25px;
   display: block;
   background-image: url(../img/dcl-logo.png);
   background-repeat: no-repeat;
@@ -582,12 +596,17 @@ header.dark-header h1.site-name a {
   width: 100%;
   background-size: contain;
   line-height: 1;
-  height: 135px;
+  height: 155px;
+  max-width: 212px;
 }
 @media all and (min-width: 980px) {
   header.dark-header h1.site-name a {
     background-position: 0 0;
   }
+}
+header.dark-header .region-header ul.menu {
+  position: relative;
+  right: 190px;
 }
 header.dark-header .region-header ul.menu li {
   list-style-type: none;
@@ -744,6 +763,67 @@ aside.user-box-1 img {
   aside.user-box-1:hover {
     overflow: visible;
   }
+}
+
+#homepage #highlight {
+  background-image: url("/img/codesprint.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 400px;
+  overflow: hidden;
+}
+#homepage #highlight > div {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+}
+#homepage #highlight > div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#homepage #highlight .slide {
+  width: 100%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin-top: 90px;
+  overflow: hidden;
+  font-size: 1.44444em;
+  line-height: 1.73077em;
+}
+
+#page {
+  margin-top: -100px;
+}
+#page > div {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+}
+#page > div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#page > div > img:first-child {
+  margin-left: 0;
+}
+#page > div > img {
+  margin-left: 100px;
 }
 
 .grid {

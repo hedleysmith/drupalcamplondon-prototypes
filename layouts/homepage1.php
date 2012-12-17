@@ -1,9 +1,25 @@
 <?php include('../includes/global/page_header.php'); ?>
 
-<body class="">
+<body id="homepage">
 
 <?php include('../includes/patterns/dark_header.php'); ?>
-<section id="pattern" class="pattern">
+
+
+<section id="highlight">
+  <div>
+    <div class="slide">
+      We are pleased to invite everyone to the <strong>UK’s capital</strong> to join the <strong>brightest minds in Drupal</strong> for a <strong>three day Drupal Camp</strong> which will bring together Drupal developers, themers, users and those interested in learning more about Drupal.
+    </div>
+
+  </div>
+</section>
+
+<section id="page" class="pattern">
+  <div>
+  <img src="/img/map-small.png" />
+  <img src="/img/add-a-session.png" />
+  <img src="/img/buy-tickets.png" />
+  <img src="/img/business-day.png" />
     <ul class="grid">
       <li>
         <div>
@@ -67,6 +83,7 @@
         </div>
       </li>
     </ul>
+    </div>
   </section>
 
 <?php include('../includes/global/page_footer.php'); ?>
