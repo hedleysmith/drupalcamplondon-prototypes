@@ -3,8 +3,8 @@ header.dark-header {
   padding-bottom: 10px;
   width: 100%;
   z-index: 50;
-  background: $dcl-red;
-  //@include column($float: none);
+  background: #111;
+  border-bottom: 6px solid $dcl-red;
   position: relative; 
   .header-inside {
     @include wrapper();

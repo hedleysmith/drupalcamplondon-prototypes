@@ -1,3 +1,5 @@
+@import "compass/css3/text-shadow";
+
 /**
  *
  * Site-wide styling
@@ -5,8 +7,10 @@
  */
 
 body {
-  background: black;
-  color: #FFF;
+  background: white;
+  background-image: url("/img/worn_dots.png");
+  background-repeat: repeat;
+  color: #000;
 }
 
 /** Links **/
@@ -33,6 +37,9 @@ hr {
 ul.menu {
   margin: 0;
   padding: 0;
+  li {
+    list-style-type: none;
+  }
 }
 
 .primary-menu-level-2 {
@@ -118,6 +125,38 @@ section.highlighted {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329cd7', endColorstr='#329cd7',GradientType=1 ); /* IE6-9 */
 }
 
+/*
+ * STRAPLINE
+ */
+
+section#strapline {
+  background: darken($dcl-red, 20%);
+  text-align: center;
+  overflow: hidden;
+  h1 {
+    @include text-shadow(1px 1px 1px rgba(0,0,0,.6));
+    color: #FFF;
+  }
+  //border-bottom: 3px solid black;
+  //border-top: 3px solid black;
+}
+
+/**
+ * SPONSORS
+ */
+
+section#sponsors {
+  background: white;
+  text-align: center;
+  h2 {
+    color: black;
+  }
+  img {
+    max-width: 250px;
+    margin: 20px;
+  }
+}
+
 /**
  * FOOTER
  */
@@ -128,6 +167,7 @@ footer {
   padding: 20px 0;
   color: #FFF;
   clear: both;
+  text-align: center;
 }
 
 footer a {
@@ -144,6 +184,23 @@ footer a.twitter-link {
   float: left;
   margin-right: 20px;
 }
+
+footer #block-social-media {
+  .content {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  ul {
+    @include h-list(20px);
+  }
+  img {
+    max-width: 96px;
+  }
+}
+
+/**
+ * MISC
+ */
 
 table {
   @include tables_basic;
