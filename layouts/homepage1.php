@@ -68,64 +68,42 @@
   </div>
 </section>
 
-<section id="drupal-info">
+<section id="schedule">
   <div class="container-full">
     <ul class="grid">
       <li class="full-width">
         <h1>Schedule</h1>
-        <div class="all-speakers">
-          <ul>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<section id="whos-going">
-  <div class="container-full">
-    <ul class="grid">
-      <li class="full-width">
-        <h1>Who's going?</h1>
-        <div class="all-speakers">
-          <ul>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<section id="drupal-info">
-  <div class="container-full">
-    <ul class="grid">
-      <li class="full-width">
-        <h1>What is Drupal?</h1>
-        <div class="all-speakers">
-          <ul>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<section id="drupal-info">
-  <div class="container-full">
-    <ul class="grid">
-      <li class="full-width">
-        <h1>The London Drupal Community</h1>
-        <div class="all-speakers">
-          <ul>
-            <li></li>
-            <li></li>
-          </ul>
+        <div class="schedule">
+          <div class="thirds">
+            <div class="bubble">
+              <h3>Friday</h3>
+              <h4>1st March</h4>
+            </div>
+            <h4>9AM - 5:15PM</h4>
+            <h4>Business Day</h4>
+            <p>A full day of keynotes & sessions, including talks from MTV, Janet & Oxfam.</p>
+            <p><strong>Evening: Social event / party</strong></p>
+            <button>Buy business day tickets</button>
+          </div>
+          <div class="thirds">
+            <div class="bubble">
+              <h3>Saturday</h3>
+              <h4>2nd March</h4>
+            </div>
+            <h4>9AM - 6:15PM</h4>
+            <p>A full day of keynotes & sessions, including talks from...</p>
+            <p><strong>Evening: Social event / party</strong></p>
+            <button>Buy DrupalCamp London tickets</button>
+          </div>
+          <div class="thirds">
+            <div class="bubble">
+              <h3>Sunday</h3>
+              <h4>3rd March</h4>
+            </div>
+            <h4>9AM - 6:15PM</h4>
+            <p>A full day of keynotes & sessions, including talks from...</p>
+            <button>Buy DrupalCamp London tickets</button>
+          </div>
         </div>
       </li>
     </ul>
@@ -133,13 +111,13 @@
 </section>
 
 
-  <section id="sponsors">
-    <h2>Sponsors</h2>
-    <img src="/img/sponsor_capgemini.jpg"/>
-    <img src="/img/sponsor_acquia.jpg" />
-    <img src="/img/sponsor_brightlemon.jpg" />
-    <img src="/img/sponsor_cameron-wilding.png" />
-  </section>
+<section id="sponsors">
+  <h2>Sponsors</h2>
+  <img src="/img/sponsor_capgemini.jpg"/>
+  <img src="/img/sponsor_acquia.jpg" />
+  <img src="/img/sponsor_brightlemon.jpg" />
+  <img src="/img/sponsor_cameron-wilding.png" />
+</section>
 
   <section id="strapline">
     <h1>Meet, Learn, Play.</h1>

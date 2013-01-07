@@ -13,3 +13,19 @@
 .container-full {
   @include wrapper();
 }
+
+.grid-full {
+	@include column();
+}
+
+.thirds {
+	@include box-sizing(border-box);
+	padding-left: $_gutter;
+	padding-right: $_gutter;
+	width: 33.333%;
+	float: left;
+}
+
+.bubble {
+	@include bubble;
+}

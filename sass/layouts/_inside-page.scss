@@ -1,0 +1,42 @@
+#inside-page {
+	#page {
+		margin-top: 75px;
+	}
+
+	.main-content {
+		@include column();
+	}
+	.sidebar-first {
+		@include column()
+	}
+
+	@media (min-width: $break_med_up) {
+		.main-content {
+			@include column(12);
+		}
+		.sidebar-first {
+			@include column(4, $float: right);
+		}
+	}
+
+	.sidebar-first {
+		ul.menu {
+			li {
+				margin-bottom: 10px;
+				a {
+					display: block;
+					background: $base_frame;
+					color: #FFF;
+					padding: 5px 10px;
+					border-radius: 10px;
+					border-bottom: 2px solid $dcl-red;					
+					color: #FFF;
+					&:hover {
+						border-bottom: 2px solid $dcl-blue;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}

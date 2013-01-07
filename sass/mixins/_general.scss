@@ -7,3 +7,14 @@
     list-style-type: none;
   }	
 }
+
+@mixin bubble {
+	background-color: $dcl-blue;
+	border-radius: 200px;
+	padding: 20px;
+	color: #FFF;
+	text-align: center;
+	* {
+		color: #FFF;
+	}
+}
