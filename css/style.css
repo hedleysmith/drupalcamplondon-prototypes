@@ -1030,6 +1030,19 @@ div.all-speakers #speakers-list li {
   position: relative;
   top: -8px;
 }
+#schedule .long-call {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#schedule .long-call button {
+  background-color: #e71e10;
+  padding: 15px;
+  color: #FFF;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: none;
+  font-weight: bold;
+}
 
 #inside-page #page {
   margin-top: 75px;

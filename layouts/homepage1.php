@@ -83,7 +83,6 @@
             <h4>Business Day</h4>
             <p>A full day of keynotes & sessions, including talks from MTV, Janet & Oxfam.</p>
             <p><strong>Evening: Social event / party</strong></p>
-            <button>Buy business day tickets</button>
           </div>
           <div class="thirds">
             <div class="bubble">
@@ -93,7 +92,6 @@
             <h4>9AM - 6:15PM</h4>
             <p>A full day of keynotes & sessions, including talks from...</p>
             <p><strong>Evening: Social event / party</strong></p>
-            <button>Buy DrupalCamp London tickets</button>
           </div>
           <div class="thirds">
             <div class="bubble">
@@ -102,11 +100,11 @@
             </div>
             <h4>9AM - 6:15PM</h4>
             <p>A full day of keynotes & sessions, including talks from...</p>
-            <button>Buy DrupalCamp London tickets</button>
           </div>
         </div>
       </li>
     </ul>
+    <div class="long-call"><button>Buy tickets for DrupalCamp London</button></div>
   </div>
 </section>
 

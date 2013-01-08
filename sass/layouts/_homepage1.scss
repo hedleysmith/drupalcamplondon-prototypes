@@ -226,5 +226,19 @@ div.all-speakers {
       top: -8px;
     }
   }
+
+  .long-call {
+    text-align: center;
+    button {
+      background-color: $dcl-red;
+      padding: 15px;
+      color: #FFF;
+      border: 1px solid #000;
+      border-radius: 10px;
+      box-shadow: none;
+      font-weight: bold;
+    }
+    margin-bottom: 10px;
+  }
 }
 
