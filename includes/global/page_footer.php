@@ -11,6 +11,7 @@
 							<li><img src="/img/social_gplus.png" /></li>
 							<li><img src="/img/social_email.png" /></li>
 						</ul>
+						<p class="closing">Drupal Camp London is a non-profit event brought to you by a team of volunteers. Drupal is a registered trademark of Dries Buytaert.</p>
 	          </div>
 	        </div>
 	      </section>

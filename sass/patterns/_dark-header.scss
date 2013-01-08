@@ -5,7 +5,7 @@ header.dark-header {
   z-index: 50;
   background: #111;
   border-bottom: 6px solid $dcl-red;
-  position: relative; 
+  position: relative;
   .header-inside {
     @include wrapper();
     position:relative;
@@ -20,15 +20,17 @@ header.dark-header {
 
     }
   }
-      #date {
-        margin-left: 200px;
-        width: 120px;
-        position: absolute;
-        background: black;
-        top: -20px;
-        right: 0;
-        padding: 20px;
-      }
+
+  #date {
+    margin-left: 200px;
+    width: 120px;
+    position: absolute;
+    background: black;
+    top: -20px;
+    right: 0;
+    padding: 20px;
+  }
+
   h1.site-name {
     margin: 0;
     line-height: 0.9;
@@ -55,70 +57,87 @@ header.dark-header {
     }
   }
 
-  .region-header ul.menu  {
+  .region-header #block-menu-block-1 ul.menu  {
     position: relative;
     right: 190px;
     @include navigation_horizontal;
 
-  li a {
-    text-decoration: none;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    padding: 3px 8px;
-    font-size: 18px;
-    background: transparent;
-    width: auto;
-  }
+    li a {
+      text-decoration: none;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      padding: 3px 8px;
+      font-size: 18px;
+      background: transparent;
+      width: auto;
+    }
 
-  li a:hover,
-  li.active-trail a,
-  li a:focus {
-    background: #333333;
-    color: #FFF;
-  }
-
-  li a:hover,
-  li.active a,
-  li.active-trail a,
-  li a:focus {
-    background: #000;
-    color: #FFF;
-  }
-
-  li.menu-mlid-236 a:hover,
-  li.menu-mlid-236 a:focus,
-  li.menu-mlid-236.active a,
-  li.menu-mlid-236.active-trail a {
-    background: #000;
-  }
-
-  li.menu-mlid-478 a:hover,
-  li.menu-mlid-478 a:focus,
-  li.menu-mlid-478.active-trail a {
-    background: #000;
-  }
-
-  li.menu-mlid-459 a:hover,
-  li.menu-mlid-459 a:focus,
-  li.menu-mlid-459.active-trail a {
-    background: #000;
-  }
-
-  li.menu-mlid-440 a:hover,
-  li.menu-mlid-440 a:focus,
-  li.menu-mlid-440.active-trail a {
-    background: #000;
-  }
-
-  li.menu-mlid-438 a:hover,
-  li.menu-mlid-438 a:focus,
-  li.menu-mlid-438.active-trail a {
-    background: #000;
-  }
-    
-    a {
+    li a:hover,
+    li.active-trail a,
+    li a:focus {
+      background: #333333;
       color: #FFF;
+    }
+
+    li a:hover,
+    li.active a,
+    li.active-trail a,
+    li a:focus {
+      background: #000;
+      color: #FFF;
+    }
+
+    li.menu-mlid-236 a:hover,
+    li.menu-mlid-236 a:focus,
+    li.menu-mlid-236.active a,
+    li.menu-mlid-236.active-trail a {
+      background: #000;
+    }
+
+    li.menu-mlid-478 a:hover,
+    li.menu-mlid-478 a:focus,
+    li.menu-mlid-478.active-trail a {
+      background: #000;
+    }
+
+    li.menu-mlid-459 a:hover,
+    li.menu-mlid-459 a:focus,
+    li.menu-mlid-459.active-trail a {
+      background: #000;
+    }
+
+    li.menu-mlid-440 a:hover,
+    li.menu-mlid-440 a:focus,
+    li.menu-mlid-440.active-trail a {
+      background: #000;
+    }
+
+    li.menu-mlid-438 a:hover,
+    li.menu-mlid-438 a:focus,
+    li.menu-mlid-438.active-trail a {
+      background: #000;
+    }
+      
+    a {
+        color: #FFF;
+      }
+  }
+
+  #menu-secondary {
+    position: absolute;
+    right: 195px;
+    top: 65px;
+    ul li {
+      background: $base_frame;
+      color: #FFF;
+      float: left;
+      margin-left: 5px;
+      a {
+        color: #FFF;
+        padding: 0 5px;
+        @include adjust-font-size-to(14px);
+      }
     }
   }
 

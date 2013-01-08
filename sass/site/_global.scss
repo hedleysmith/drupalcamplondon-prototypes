@@ -192,9 +192,16 @@ footer #block-social-media {
   }
   ul {
     @include h-list(20px);
+    margin: 0 auto;
+    display: inline-block;
   }
   img {
     max-width: 96px;
+  }
+  p.closing {
+    max-width: 700px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
 

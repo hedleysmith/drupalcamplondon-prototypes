@@ -605,37 +605,37 @@ header.dark-header h1.site-name a {
     background-position: 0 0;
   }
 }
-header.dark-header .region-header ul.menu {
+header.dark-header .region-header #block-menu-block-1 ul.menu {
   position: relative;
   right: 190px;
 }
-header.dark-header .region-header ul.menu li {
+header.dark-header .region-header #block-menu-block-1 ul.menu li {
   list-style-type: none;
   text-align: center;
 }
-header.dark-header .region-header ul.menu li a {
+header.dark-header .region-header #block-menu-block-1 ul.menu li a {
   display: block;
   width: 100%;
 }
 @media (min-width: 600px) {
-  header.dark-header .region-header ul.menu {
+  header.dark-header .region-header #block-menu-block-1 ul.menu {
     margin-top: 6px;
     margin-left: -30px;
     margin-bottom: 0px;
     margin-right: 0px;
     text-align: center;
   }
-  header.dark-header .region-header ul.menu li {
+  header.dark-header .region-header #block-menu-block-1 ul.menu li {
     display: inline-block;
     margin-left: 30px;
   }
 }
 @media (min-width: 980px) {
-  header.dark-header .region-header ul.menu {
+  header.dark-header .region-header #block-menu-block-1 ul.menu {
     text-align: right;
   }
 }
-header.dark-header .region-header ul.menu li a {
+header.dark-header .region-header #block-menu-block-1 ul.menu li a {
   text-decoration: none;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -645,47 +645,64 @@ header.dark-header .region-header ul.menu li a {
   background: transparent;
   width: auto;
 }
-header.dark-header .region-header ul.menu li a:hover,
-header.dark-header .region-header ul.menu li.active-trail a,
-header.dark-header .region-header ul.menu li a:focus {
+header.dark-header .region-header #block-menu-block-1 ul.menu li a:hover,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.active-trail a,
+header.dark-header .region-header #block-menu-block-1 ul.menu li a:focus {
   background: #333333;
   color: #FFF;
 }
-header.dark-header .region-header ul.menu li a:hover,
-header.dark-header .region-header ul.menu li.active a,
-header.dark-header .region-header ul.menu li.active-trail a,
-header.dark-header .region-header ul.menu li a:focus {
+header.dark-header .region-header #block-menu-block-1 ul.menu li a:hover,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.active a,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.active-trail a,
+header.dark-header .region-header #block-menu-block-1 ul.menu li a:focus {
   background: #000;
   color: #FFF;
 }
-header.dark-header .region-header ul.menu li.menu-mlid-236 a:hover,
-header.dark-header .region-header ul.menu li.menu-mlid-236 a:focus,
-header.dark-header .region-header ul.menu li.menu-mlid-236.active a,
-header.dark-header .region-header ul.menu li.menu-mlid-236.active-trail a {
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-236 a:hover,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-236 a:focus,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-236.active a,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-236.active-trail a {
   background: #000;
 }
-header.dark-header .region-header ul.menu li.menu-mlid-478 a:hover,
-header.dark-header .region-header ul.menu li.menu-mlid-478 a:focus,
-header.dark-header .region-header ul.menu li.menu-mlid-478.active-trail a {
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-478 a:hover,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-478 a:focus,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-478.active-trail a {
   background: #000;
 }
-header.dark-header .region-header ul.menu li.menu-mlid-459 a:hover,
-header.dark-header .region-header ul.menu li.menu-mlid-459 a:focus,
-header.dark-header .region-header ul.menu li.menu-mlid-459.active-trail a {
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-459 a:hover,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-459 a:focus,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-459.active-trail a {
   background: #000;
 }
-header.dark-header .region-header ul.menu li.menu-mlid-440 a:hover,
-header.dark-header .region-header ul.menu li.menu-mlid-440 a:focus,
-header.dark-header .region-header ul.menu li.menu-mlid-440.active-trail a {
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-440 a:hover,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-440 a:focus,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-440.active-trail a {
   background: #000;
 }
-header.dark-header .region-header ul.menu li.menu-mlid-438 a:hover,
-header.dark-header .region-header ul.menu li.menu-mlid-438 a:focus,
-header.dark-header .region-header ul.menu li.menu-mlid-438.active-trail a {
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-438 a:hover,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-438 a:focus,
+header.dark-header .region-header #block-menu-block-1 ul.menu li.menu-mlid-438.active-trail a {
   background: #000;
 }
-header.dark-header .region-header ul.menu a {
+header.dark-header .region-header #block-menu-block-1 ul.menu a {
   color: #FFF;
+}
+header.dark-header #menu-secondary {
+  position: absolute;
+  right: 195px;
+  top: 65px;
+}
+header.dark-header #menu-secondary ul li {
+  background: #222425;
+  color: #FFF;
+  float: left;
+  margin-left: 5px;
+}
+header.dark-header #menu-secondary ul li a {
+  color: #FFF;
+  padding: 0 5px;
+  font-size: 0.77778em;
+  line-height: 2.14286em;
 }
 
 aside.user-box-1 div.name {
@@ -1269,6 +1286,8 @@ footer #block-social-media .content {
 footer #block-social-media ul {
   margin: 0px 0px 0px -20px;
   padding: 0;
+  margin: 0 auto;
+  display: inline-block;
 }
 footer #block-social-media ul li {
   float: left;
@@ -1277,6 +1296,11 @@ footer #block-social-media ul li {
 }
 footer #block-social-media img {
   max-width: 96px;
+}
+footer #block-social-media p.closing {
+  max-width: 700px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 /**

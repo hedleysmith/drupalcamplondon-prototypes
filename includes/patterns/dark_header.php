@@ -21,6 +21,13 @@
           </div>
         </div>
       </section>
+
+      <section id="menu-secondary">
+        <ul class="menu">
+          <li><a href="">Register</a></li>
+          <li><a href="">Buy a ticket</a></li>
+        </ul>
+      </section>
       <img src="/img/date.png" id="date" />
     </div>
 
