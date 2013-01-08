@@ -226,19 +226,19 @@ div.all-speakers {
       top: -8px;
     }
   }
+}
 
-  .long-call {
-    text-align: center;
-    button {
-      background-color: $dcl-red;
-      padding: 15px;
-      color: #FFF;
-      border: 1px solid #000;
-      border-radius: 10px;
-      box-shadow: none;
-      font-weight: bold;
-    }
-    margin-bottom: 10px;
-  }
+.long-call {
+  text-align: center;
+    background: darken($dcl-blue, 40%);
+    padding: 30px;
+    color: #FFF;
+    cursor: pointer;
+    margin: 0;
+    font-family: $heading-font-family;
+    @include adjust-font-size-to(40px, 1.5);
+    display: block;
+    font-weight: bold;
+    @include trailer(1);
 }
 

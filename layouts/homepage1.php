@@ -104,10 +104,10 @@
         </div>
       </li>
     </ul>
-    <div class="long-call"><button>Buy tickets for DrupalCamp London</button></div>
   </div>
 </section>
 
+<h1 class="long-call">Buy tickets for DrupalCamp London</h1>
 
 <section id="sponsors">
   <h2>Sponsors</h2>
