@@ -162,36 +162,62 @@ header.main-header h5 {
 
 }
 
-div.all-speakers {
+div.all-speakers,
+.grid > li div.all-speakers  {
   background: $base_frame;
-  padding: 20px;
+  padding: 0;
   color: #FFF;
   ul {
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+    white-space: nowrap;
     img {
+      display: inline-block;
+      float: left;
       width: 75px;
       height: 75px;
-      float: left;
-      margin-right: 10px;
+      white-space: nowrap;
+    }
+    .details {
+      display: inline-block;
+      white-space: nowrap;
+      font-size: 14px;
+      padding: 5px;
+      strong {
+        color: $dcl-blue;
+      }
+      p:after {
+        content: " »";
+      }
     }
     li {
-      float: left;
-      width: 50%;
+      background: #000;
+      display: inline-block;
+      margin-left: -5px;
+      height: 75px;
+      width: 75px;
       padding: 0;
-      margin-bottom: 20px;
+      @include transition(width 0.4s ease-out);
       overflow: hidden;
+      white-space: nowrap;
+    }
+    li:hover,
+    li.active {
+      width: 300px;
+    }
+    li.active:hover {
+      width: 300px!important;
     }
   }
   p {
     margin: 0;
   }
   #featured-speakers-2 {
-    float: left;
-    width: 50%;
     margin: 0;
     padding: 0;
     li {
-      height: 85px;
-      overflow: visible;
+      overflow: hidden;
     }
   }
   #speakers-list {
@@ -205,6 +231,10 @@ div.all-speakers {
       margin: 0;
     }
   }
+}
+
+div.all-speakers:hover ul li.active {
+  width: 75px!important;
 }
 
 #schedule {

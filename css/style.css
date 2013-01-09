@@ -961,38 +961,83 @@ header.main-header h5 {
   display: inline-block;
 }
 
-div.all-speakers {
+div.all-speakers,
+.grid > li div.all-speakers {
   background: #222425;
-  padding: 20px;
+  padding: 0;
   color: #FFF;
 }
-div.all-speakers ul img {
+div.all-speakers ul,
+.grid > li div.all-speakers ul {
+  overflow: hidden;
+  width: 100%;
+  height: 70px;
+  white-space: nowrap;
+}
+div.all-speakers ul img,
+.grid > li div.all-speakers ul img {
+  display: inline-block;
+  float: left;
   width: 75px;
   height: 75px;
-  float: left;
-  margin-right: 10px;
+  white-space: nowrap;
 }
-div.all-speakers ul li {
-  float: left;
-  width: 50%;
+div.all-speakers ul .details,
+.grid > li div.all-speakers ul .details {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 5px;
+}
+div.all-speakers ul .details strong,
+.grid > li div.all-speakers ul .details strong {
+  color: #53b0eb;
+}
+div.all-speakers ul .details p:after,
+.grid > li div.all-speakers ul .details p:after {
+  content: " »";
+}
+div.all-speakers ul li,
+.grid > li div.all-speakers ul li {
+  background: #000;
+  display: inline-block;
+  margin-left: -5px;
+  height: 75px;
+  width: 75px;
   padding: 0;
-  margin-bottom: 20px;
+  -webkit-transition: width 0.4s ease-out;
+  -moz-transition: width 0.4s ease-out;
+  -ms-transition: width 0.4s ease-out;
+  -o-transition: width 0.4s ease-out;
+  transition: width 0.4s ease-out;
+  overflow: hidden;
+  white-space: nowrap;
+}
+div.all-speakers ul li:hover,
+div.all-speakers ul li.active,
+.grid > li div.all-speakers ul li:hover,
+.grid > li div.all-speakers ul li.active {
+  width: 300px;
+}
+div.all-speakers ul li.active:hover,
+.grid > li div.all-speakers ul li.active:hover {
+  width: 300px!important;
+}
+div.all-speakers p,
+.grid > li div.all-speakers p {
+  margin: 0;
+}
+div.all-speakers #featured-speakers-2,
+.grid > li div.all-speakers #featured-speakers-2 {
+  margin: 0;
+  padding: 0;
+}
+div.all-speakers #featured-speakers-2 li,
+.grid > li div.all-speakers #featured-speakers-2 li {
   overflow: hidden;
 }
-div.all-speakers p {
-  margin: 0;
-}
-div.all-speakers #featured-speakers-2 {
-  float: left;
-  width: 50%;
-  margin: 0;
-  padding: 0;
-}
-div.all-speakers #featured-speakers-2 li {
-  height: 85px;
-  overflow: visible;
-}
-div.all-speakers #speakers-list {
+div.all-speakers #speakers-list,
+.grid > li div.all-speakers #speakers-list {
   float: left;
   width: 50%;
   margin: 0;
@@ -1000,8 +1045,13 @@ div.all-speakers #speakers-list {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-div.all-speakers #speakers-list li {
+div.all-speakers #speakers-list li,
+.grid > li div.all-speakers #speakers-list li {
   margin: 0;
+}
+
+div.all-speakers:hover ul li.active {
+  width: 75px!important;
 }
 
 #schedule .thirds {

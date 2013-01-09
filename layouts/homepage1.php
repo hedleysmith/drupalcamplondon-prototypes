@@ -42,26 +42,77 @@
       <li class="full-width">
         <div class="all-speakers">
           <ul id="featured-speakers-2">
-            <li><img src="/img/placeholder_person_2.png" /><div><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
-            <li><img src="/img/placeholder_person_3.jpg" /><div><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
-            <li><img src="/img/placeholder_person_4.jpeg" /><div><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
-            <li><img src="/img/placeholder_person_5.jpg" /><div><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>            
+            <li><img src="/img/speakers/andrew.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/bojhan.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/boulton.jpeg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/boyer.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/castelo.png" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li class=""><img src="/img/speakers/catch.JPG" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/chx.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/crell.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/eclipse.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/everett.jpg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/fab.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/farina.jpg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/fielding.png" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/gabor.jpg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/jen.jpg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/john.png" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/karen.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>  
           </ul>
-          <ul id="speakers-list">
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
-            <li>Joe Bloggs</li>
+          <ul id="featured-speakers-2">
+            <li><img src="/img/speakers/kitt.png" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li class="active"><img src="/img/speakers/lisarex.gif" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/long.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/eaton.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/matason.png" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/miles.jpg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/morten.png" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/mosche.jpeg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/myles.jpeg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/nathan.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/nik.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/plunkett.jpeg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/reid.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/robert.jpg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/roy.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/rupl.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/ryan.jpg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
           </ul>
+          <ul id="featured-speakers-2">
+            <li><img src="/img/speakers/seb.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/strauss.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/tim.jpeg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/tsven.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/wakko.png" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/webchick.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/wim.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li class="active"><img src="/img/speakers/hedley.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/snugug.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/ezra.jpg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/sensei.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/jam.jpg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/cambra.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/scnitzel.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+            <li><img src="/img/speakers/kottler.jpg" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor sit</p></div></li>
+            <li><img src="/img/speakers/mcphee.jpg" /><div class="details"><strong>Joe Bloggs</strong><p>Lorem ipsum dolor sit amet</p></div></li>
+            <li><img src="/img/speakers/tom_bigger.png" /><div class="details"><strong>Peter Piper</strong><p>Lorem ipsum dolor</p></div></li>
+          </ul>
+         <!-- <ul id="speakers-list">
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+            <li>Joe Bloggs</li>
+          </ul>-->
         </div>
       </li>
     </ul>
