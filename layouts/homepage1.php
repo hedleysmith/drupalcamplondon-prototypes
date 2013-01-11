@@ -150,7 +150,7 @@
               <h4>3rd March</h4>
             </div>
             <h4>9AM - 6:15PM</h4>
-            <p>A full day of keynotes & sessions, including talks from...</p>
+            <p>A day of code sprints & workshops with a keynote to kick things off</p>
           </div>
         </div>
       </li>
